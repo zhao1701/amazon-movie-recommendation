@@ -88,7 +88,7 @@ By strategically choosing values of *p* and *k* while sampling, we create sample
 |Ratings01|10|5|0.005|1|
 
 #### Hyperparameter Search and Model Tuning
-For hyperparameter searches, we eschew the traditional brute force method of grid searching for optimal hyperparameters and instead turn to a form of Bayesian optimization utilizing [tree-structured Parzen estimators (TPE)](http://steventhornton.ca/hyperparameter-tuning-with-hyperopt-in-python/). It has been show that Bayesian optimization is a more effective model tuning method than random search and that random search is a more effective model tuning method than grid search. Bayesian optimization works by iteratively making a guess about the optimal combination of hyperparameter values, testing that guess by evaluating a model with those hyperparameter values, and based on the model's performance, positing an updated guess. In this way, it is able to converge faster to optimal hyperparameter values than grid search or random search.
+For hyperparameter searches, we eschew the traditional brute force method of grid searching for optimal hyperparameters and instead turn to a form of Bayesian optimization utilizing [tree-structured Parzen estimators (TPE)](http://steventhornton.ca/hyperparameter-tuning-with-hyperopt-in-python/). It has been show that Bayesian optimization is a more effective model tuning method than random search and that random search is a more effective model tuning method than grid search. Bayesian optimization works by iteratively making a guess about the optimal combination of hyperparameter values, testing that guess by evaluating a model with those hyperparameter values, and based on the model's performance, positing an updated guess. In this way, it is able to converge faster to optimal hyperparameter values than grid search or random search. For all models, this procedure is applied on the **Ratings18** sample set.
 
 ##### Unconstrained Matrix Factorization
 Below are the results of a TPE search for optimal hyperparameter values of an SVD model.
@@ -147,3 +147,45 @@ Data from the full search is plotted below. Surprisingly, the value for *k* appe
 ![](imgs/knn-params-1.png)
 ![](imgs/knn-params-2.png)
 ![](imgs/knn-params-3.png)
+
+## Results
+
+For each model, we tune it for optimal hyperparameters applying TPE on the **Ratings18** sampleset as previously described. We then test the model on each sample set (Ratings18, Ratings07, Ratings02, Ratings01) using 5-fold cross validation. That is, given a model and a sample set, the sample set is randomly shuffled and split into 5 folds. One fold is designated the test set while the model is trained on the remaining folds. The trained model is then applied to the test set, on which MAE, precision, and recall are calculated. This process is repeated 4 more times, each time with a different fold designated as the test set. For example, cross-validated tests for SVD on Ratings18 would yield 5 different values for MAE, 
+
+Training times and catalog coverage are calculated without cross validation.
+
+#### Mean average error
+Below we plot how mean average error for each model changes with respect to sample set size (number of ratings). The two plots are the same but scaled differently for clarity. For each model and sample set size, 5 MAE's are calculated from cross-validation, so we plot the mean of those 5 values as well as a shaded region corresponding to one standard deviation above and below the mean.
+
+![](imgs/mae-results.png)
+
+It is immediately clear that the averaging baseline performs quite poorly compared to any other alternative. As for the rest of the models, KNN is the most 'data hungry'. That is, with enough data, KNN shows comparable performance with the other models and even surpasses the manual baseline, but with fewer ratings available to train on, its accuracy degrades quite noticeably. This makes sense because it becomes increasingly difficult to calculate the similarity between items with less data available.
+
+Rather surprisingly, the two learned baseline models, ALS and SGD, outperform (though by a small margin) more sophisticated matrix factorization methods like SVD and NMF. A possible explanation is that because the ratings are so skewed and unevenly distributed (recall that the majority of ratings are 5's), the benefit conferred by using more complex models may be minimal to non-existent.
+
+#### Precision
+Below we plot how precision at *k=10* recommendations for each model changes with respect to sample set size. Because the averaging baseline predicts the same rating for each user-item pair, it is not useful to compute top-k precision, so it is excluded from the plot. The first and second row of plots differ only in that the second row does not contain shaded regions indicating the standard deviation.
+![](imgs/precision-results-1.png)
+![](imgs/precision-results-2.png)
+The manual baseline has both a much lower precision than the rest of the models as well as much more unstable performance. Here too, we notice that the ALS and SGD baselines perform marginally better than SVD and KNN. In general, precision is not much improved with more data, with most models performing at between 0.7 and 0.75 precision. This means that for the typical user, 7 to 8 of the top 10 recommendations made will be movies or TV shows they would have rated as a 4 or 5.
+
+#### Training time
+Whereas many of the models do not show significantly different performance in terms of MAE and precision, they take a much greater variety of training times.
+![](imgs/runtime-results.png)
+The averaging and ALS baselines train the fastest, requiring under 5 seconds even for the Ratings18 sample set. While KNN appears to be moderately efficient at training, it appears to scale poorly, and given data of sufficiently large size, may take the longest time to train. Also notable is the fact that the matrix factorization methods, SVD and NMF train the slowest across all sample set sizes.
+
+#### Catalog Coverage
+We assess catalog coverage for each model on only the **Ratings07** sample set. In comparing the coverage rates of each model we find that KNN and NMF have the highest coverage rates at over 25%. However, in comparison to SVD, the ALS baseline, and the SGD baseline, KNN and NMF actually perform slightly worse in terms of MAE and precision. This is the trade-off of accuracy and coverage we ususally face when making recommendations, an extreme example being an algorithm that provides 100% coverage by simply predicting random ratings for all entries.
+![](imgs/coverage-results.png)
+A reason that KNN and NMF provide much better coverage than the other models is that these two models are much more likely to predict ratings of 5. This means that when generating the top 10 recommendations for a user with many predicted 5 ratings, the recommendation system will simply randomly pick 10 items out of all items with predicted ratings of 5 for that user. In this way, KNN and NMF would inadvertantly cause a recommender system to surface a much larger variety of movies and TV shows.
+
+## Conclusion
+#### Choosing a final model
+While the ALS baseline performs best in terms of MAE, precision, and is the second fastest model to train, its extremely low catalog coverage means that a tiny fraction of an online retailer's product catalog would actually be recommended to customers. Thus, KNN and NMF remain the only viable options for choice of model. KNN only slightly outperforms NMF in terms of precision, but given that it is liable to scale extremely poorly in terms of training time, we would choose to implement NMF in a production recommender system for this data.
+
+#### Further work
+The ALS baseline, while fast and accurate, does not recommend a sufficient variety items in the retailer's catalog. One way to address this deficiency is to forego recommending top k items altogether and instead recommend a random sample of *relevant* items (items for which the system predicts the user would rate a 4 or 5). Implementing a recommender system in this fashion would affect precision for all models but merits an additional look given that coverage could drastically increase for those models with extremely low coverage.
+
+An alternate recommendation method to consider for profit maximization would be to recommend the top k *relevant* items but sorted by profit margin. However, such a system could possibly suffer from much reduced coverage due to the sorting mechanism.
+
+Finally, because the vast majority of ratings in the Amazon Movie and TV reviews dataset were 4's or 5's, and because the difference between recommending an item a user would have rated as a 4 and recommending one a user would have rated as a 5 may not be especially significant, a possibly better approach might have been to simply convert all ratings to implicit ratings. That is, convert all ratings of 4's and 5's to 1's, and discard all other ratings. Whether using implicit data would result in improved precision and coverage is another area of future work could be worthwhile.
