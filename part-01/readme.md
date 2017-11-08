@@ -1,3 +1,8 @@
+# Readme
+**Note**: This project was conducted in Jupyter notebooks running Python 3.6 kernels. All python packages installed on the team's environment and their corresponding versions are listed in **requirements.txt**.
+
+For code and additional comments, please see the individual **notebooks**.
+
 # A Comparison of Recommendation Models for Amazon's Movie and TV Catalog
 #### by Charissa Ding, Carrie Yang, and Derek Zhao
 
@@ -154,8 +159,8 @@ For each model, we tune it for optimal hyperparameters applying TPE on the **Rat
 
 Training times and catalog coverage are calculated without cross validation.
 
-#### Mean average error
-Below we plot how mean average error for each model changes with respect to sample set size (number of ratings). The two plots are the same but scaled differently for clarity. For each model and sample set size, 5 MAE's are calculated from cross-validation, so we plot the mean of those 5 values as well as a shaded region corresponding to one standard deviation above and below the mean.
+#### Mean absolute error
+Below we plot how mean absolute error for each model changes with respect to sample set size (number of ratings). The two plots are the same but scaled differently for clarity. For each model and sample set size, 5 MAE's are calculated from cross-validation, so we plot the mean of those 5 values as well as a shaded region corresponding to one standard deviation above and below the mean.
 
 ![](imgs/mae-results.png)
 
