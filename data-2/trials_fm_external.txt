@@ -1,0 +1,308 @@
+==========TESTING FM==========
+{'init_stdev': 0.9365231038028433, 'l2_reg_V': 19.02493608831366, 'l2_reg_w': 2.1063542341507056, 'n_iter': 303, 'rank': 4, 'use_actors': False, 'use_country': True, 'use_directors': False, 'use_genres': True, 'use_language': True, 'use_model_results': False, 'use_mpaa': True, 'use_popularity': True, 'use_scores': False, 'use_studios': False, 'use_type': False, 'use_year': False}
+MAE: 0.750296119728
+==========TESTING FM==========
+{'init_stdev': 0.9389367176946009, 'l2_reg_V': 4.8303368476943955, 'l2_reg_w': 7.049103179003952, 'n_iter': 452, 'rank': 3, 'use_actors': True, 'use_country': True, 'use_directors': False, 'use_genres': False, 'use_language': True, 'use_model_results': False, 'use_mpaa': False, 'use_popularity': True, 'use_scores': False, 'use_studios': False, 'use_type': False, 'use_year': True}
+MAE: 0.765310011052
+==========TESTING FM==========
+{'init_stdev': 0.9033333869160304, 'l2_reg_V': 9.940029527227997, 'l2_reg_w': 8.687882686029734, 'n_iter': 795, 'rank': 2, 'use_actors': True, 'use_country': False, 'use_directors': True, 'use_genres': False, 'use_language': False, 'use_model_results': True, 'use_mpaa': True, 'use_popularity': False, 'use_scores': False, 'use_studios': False, 'use_type': False, 'use_year': True}
+MAE: 0.735041502279
+==========TESTING FM==========
+{'init_stdev': 0.8054205854393925, 'l2_reg_V': 9.53582699500908, 'l2_reg_w': 12.211945841504939, 'n_iter': 317, 'rank': 4, 'use_actors': False, 'use_country': False, 'use_directors': False, 'use_genres': False, 'use_language': False, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': False, 'use_scores': False, 'use_studios': False, 'use_type': True, 'use_year': False}
+MAE: 0.848452873713
+==========TESTING FM==========
+{'init_stdev': 0.8979083409963053, 'l2_reg_V': 11.12555326396684, 'l2_reg_w': 1.832086858288633, 'n_iter': 406, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': False, 'use_genres': False, 'use_language': False, 'use_model_results': False, 'use_mpaa': True, 'use_popularity': True, 'use_scores': False, 'use_studios': False, 'use_type': False, 'use_year': True}
+MAE: 0.743381045694
+==========TESTING FM==========
+{'init_stdev': 0.556969523145453, 'l2_reg_V': 20.73071105934111, 'l2_reg_w': 4.363746929804447, 'n_iter': 531, 'rank': 4, 'use_actors': True, 'use_country': False, 'use_directors': False, 'use_genres': True, 'use_language': False, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': False, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': True}
+MAE: 0.840245725396
+==========TESTING FM==========
+{'init_stdev': 0.9553627417184319, 'l2_reg_V': 5.735991261073916, 'l2_reg_w': 4.743340645592412, 'n_iter': 401, 'rank': 4, 'use_actors': False, 'use_country': True, 'use_directors': True, 'use_genres': True, 'use_language': False, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': False, 'use_year': True}
+MAE: 1.20710037067
+==========TESTING FM==========
+{'init_stdev': 0.9683065429065767, 'l2_reg_V': 18.151891925594224, 'l2_reg_w': 13.239777593184279, 'n_iter': 619, 'rank': 4, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': True, 'use_language': False, 'use_model_results': False, 'use_mpaa': True, 'use_popularity': False, 'use_scores': False, 'use_studios': True, 'use_type': True, 'use_year': True}
+MAE: 0.77858391205
+==========TESTING FM==========
+{'init_stdev': 0.4833022084253453, 'l2_reg_V': 13.70379951872045, 'l2_reg_w': 8.131766000070014, 'n_iter': 701, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': False, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.7371594099
+==========TESTING FM==========
+{'init_stdev': 0.057281861295037095, 'l2_reg_V': 5.286644641099739, 'l2_reg_w': 2.7541078414535294, 'n_iter': 305, 'rank': 4, 'use_actors': True, 'use_country': False, 'use_directors': False, 'use_genres': True, 'use_language': False, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': False, 'use_studios': False, 'use_type': True, 'use_year': False}
+MAE: 0.748891968618
+==========TESTING FM==========
+{'init_stdev': 0.8200349418336069, 'l2_reg_V': 19.031024432093677, 'l2_reg_w': 2.861007932557616, 'n_iter': 900, 'rank': 3, 'use_actors': True, 'use_country': False, 'use_directors': True, 'use_genres': True, 'use_language': False, 'use_model_results': False, 'use_mpaa': True, 'use_popularity': False, 'use_scores': True, 'use_studios': False, 'use_type': True, 'use_year': True}
+MAE: 0.747296808568
+==========TESTING FM==========
+{'init_stdev': 0.6531656302111329, 'l2_reg_V': 7.7087958769234675, 'l2_reg_w': 8.545424864022355, 'n_iter': 396, 'rank': 3, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': False, 'use_model_results': False, 'use_mpaa': True, 'use_popularity': False, 'use_scores': False, 'use_studios': False, 'use_type': False, 'use_year': True}
+MAE: 0.738598552973
+==========TESTING FM==========
+{'init_stdev': 0.6683955015993037, 'l2_reg_V': 18.120230426324092, 'l2_reg_w': 3.6578665778941954, 'n_iter': 614, 'rank': 3, 'use_actors': True, 'use_country': False, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': True, 'use_popularity': False, 'use_scores': False, 'use_studios': False, 'use_type': True, 'use_year': False}
+MAE: 0.752958212109
+==========TESTING FM==========
+{'init_stdev': 0.8118981875577723, 'l2_reg_V': 3.9301761605168197, 'l2_reg_w': 10.788437862046623, 'n_iter': 700, 'rank': 2, 'use_actors': False, 'use_country': False, 'use_directors': True, 'use_genres': True, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': False, 'use_scores': True, 'use_studios': False, 'use_type': False, 'use_year': True}
+MAE: 0.762490581955
+==========TESTING FM==========
+{'init_stdev': 0.11387790725221059, 'l2_reg_V': 9.305159918075056, 'l2_reg_w': 7.099004320483001, 'n_iter': 848, 'rank': 5, 'use_actors': True, 'use_country': False, 'use_directors': False, 'use_genres': True, 'use_language': False, 'use_model_results': False, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': False, 'use_year': False}
+MAE: 0.749861602563
+==========TESTING FM==========
+{'init_stdev': 0.5430664040505291, 'l2_reg_V': 3.5355960811804654, 'l2_reg_w': 10.609427080308683, 'n_iter': 750, 'rank': 2, 'use_actors': True, 'use_country': False, 'use_directors': False, 'use_genres': True, 'use_language': True, 'use_model_results': True, 'use_mpaa': True, 'use_popularity': True, 'use_scores': False, 'use_studios': True, 'use_type': False, 'use_year': False}
+MAE: 0.75287853114
+==========TESTING FM==========
+{'init_stdev': 0.5956459229428148, 'l2_reg_V': 12.81400502632259, 'l2_reg_w': 3.776078004337055, 'n_iter': 757, 'rank': 3, 'use_actors': False, 'use_country': True, 'use_directors': True, 'use_genres': True, 'use_language': True, 'use_model_results': False, 'use_mpaa': True, 'use_popularity': False, 'use_scores': False, 'use_studios': True, 'use_type': False, 'use_year': False}
+MAE: 0.754846424056
+==========TESTING FM==========
+{'init_stdev': 0.9786412362571848, 'l2_reg_V': 8.688196579118134, 'l2_reg_w': 3.1914312626249526, 'n_iter': 433, 'rank': 2, 'use_actors': False, 'use_country': True, 'use_directors': True, 'use_genres': True, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': False, 'use_year': True}
+MAE: 2.01195470444
+==========TESTING FM==========
+{'init_stdev': 0.620383493707807, 'l2_reg_V': 17.228835798803516, 'l2_reg_w': 15.688748682518566, 'n_iter': 191, 'rank': 3, 'use_actors': False, 'use_country': True, 'use_directors': False, 'use_genres': False, 'use_language': True, 'use_model_results': False, 'use_mpaa': True, 'use_popularity': False, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': True}
+MAE: 0.760869590122
+==========TESTING FM==========
+{'init_stdev': 0.8858309755090876, 'l2_reg_V': 17.58732911294718, 'l2_reg_w': 4.42010165347717, 'n_iter': 845, 'rank': 5, 'use_actors': False, 'use_country': False, 'use_directors': True, 'use_genres': True, 'use_language': False, 'use_model_results': True, 'use_mpaa': True, 'use_popularity': True, 'use_scores': False, 'use_studios': False, 'use_type': False, 'use_year': True}
+MAE: 0.835049256388
+==========TESTING FM==========
+{'init_stdev': 0.3423183889941801, 'l2_reg_V': 0.4273202722765852, 'l2_reg_w': 18.389430906280502, 'n_iter': 990, 'rank': 2, 'use_actors': True, 'use_country': False, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': False, 'use_mpaa': False, 'use_popularity': False, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.758917027698
+==========TESTING FM==========
+{'init_stdev': 0.37158462351471533, 'l2_reg_V': 14.71242145282728, 'l2_reg_w': 8.584734789743065, 'n_iter': 919, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.723019759356
+==========TESTING FM==========
+{'init_stdev': 0.2595139762984561, 'l2_reg_V': 14.714376572525255, 'l2_reg_w': 14.957015401774296, 'n_iter': 988, 'rank': 3, 'use_actors': True, 'use_country': False, 'use_directors': True, 'use_genres': False, 'use_language': False, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': False, 'use_type': True, 'use_year': False}
+MAE: 0.725214185361
+==========TESTING FM==========
+{'init_stdev': 0.23782741438880706, 'l2_reg_V': 15.418974108898752, 'l2_reg_w': 20.639681112675675, 'n_iter': 939, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.71853858576
+==========TESTING FM==========
+{'init_stdev': 0.2592258299106703, 'l2_reg_V': 15.82553172020808, 'l2_reg_w': 18.001607561625235, 'n_iter': 935, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.718780654252
+==========TESTING FM==========
+{'init_stdev': 0.2019066648748623, 'l2_reg_V': 16.225155226803963, 'l2_reg_w': 20.97517698433272, 'n_iter': 997, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.71828661076
+==========TESTING FM==========
+{'init_stdev': 0.148092018357113, 'l2_reg_V': 12.293569667536437, 'l2_reg_w': 20.940981214847447, 'n_iter': 970, 'rank': 3, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.721773762911
+==========TESTING FM==========
+{'init_stdev': 0.19701354473778998, 'l2_reg_V': 20.993097001826797, 'l2_reg_w': 19.82110346298913, 'n_iter': 111, 'rank': 3, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.734767874025
+==========TESTING FM==========
+{'init_stdev': 0.023410029027805868, 'l2_reg_V': 16.14964923384352, 'l2_reg_w': 20.814037469002294, 'n_iter': 860, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.719235829957
+==========TESTING FM==========
+{'init_stdev': 0.4327415619490461, 'l2_reg_V': 20.17649622985389, 'l2_reg_w': 17.047006628283096, 'n_iter': 574, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.729879250679
+==========TESTING FM==========
+{'init_stdev': 0.28949768127440073, 'l2_reg_V': 12.083975357685231, 'l2_reg_w': 18.813335595447747, 'n_iter': 509, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.723144458009
+==========TESTING FM==========
+{'init_stdev': 0.0009309817968339018, 'l2_reg_V': 15.870092270490703, 'l2_reg_w': 16.36391318765521, 'n_iter': 799, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.722784418015
+==========TESTING FM==========
+{'init_stdev': 0.1681514400876061, 'l2_reg_V': 19.352812914955678, 'l2_reg_w': 13.590340774963492, 'n_iter': 671, 'rank': 3, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.72116370832
+==========TESTING FM==========
+{'init_stdev': 0.09568150428072503, 'l2_reg_V': 10.904649992813313, 'l2_reg_w': 19.89319938797108, 'n_iter': 218, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.720949709627
+==========TESTING FM==========
+{'init_stdev': 0.39491822088260176, 'l2_reg_V': 13.986263664931188, 'l2_reg_w': 14.430393340227662, 'n_iter': 946, 'rank': 5, 'use_actors': False, 'use_country': True, 'use_directors': False, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.796477199822
+==========TESTING FM==========
+{'init_stdev': 0.2174258317773171, 'l2_reg_V': 16.797859664025516, 'l2_reg_w': 12.132759117800964, 'n_iter': 888, 'rank': 4, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.730935907333
+==========TESTING FM==========
+{'init_stdev': 0.329212725373773, 'l2_reg_V': 6.999121131297628, 'l2_reg_w': 19.564077833109938, 'n_iter': 809, 'rank': 3, 'use_actors': True, 'use_country': True, 'use_directors': False, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.744823845196
+==========TESTING FM==========
+{'init_stdev': 0.4860707794254833, 'l2_reg_V': 11.267114132356323, 'l2_reg_w': 17.213121102288394, 'n_iter': 998, 'rank': 3, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.762679781764
+==========TESTING FM==========
+{'init_stdev': 0.4338264587453461, 'l2_reg_V': 13.538326189190208, 'l2_reg_w': 20.770802923024494, 'n_iter': 735, 'rank': 2, 'use_actors': False, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.752253684861
+==========TESTING FM==========
+{'init_stdev': 0.7181296678332572, 'l2_reg_V': 19.905822845334477, 'l2_reg_w': 11.783770450667895, 'n_iter': 355, 'rank': 5, 'use_actors': True, 'use_country': True, 'use_directors': False, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.994430476737
+==========TESTING FM==========
+{'init_stdev': 0.052555528961826886, 'l2_reg_V': 14.649113017130524, 'l2_reg_w': 0.5035212586710109, 'n_iter': 472, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': False, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.724917204804
+==========TESTING FM==========
+{'init_stdev': 0.23737675958264198, 'l2_reg_V': 10.202240602039254, 'l2_reg_w': 5.924303716796205, 'n_iter': 575, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': False, 'use_model_results': False, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': False, 'use_type': True, 'use_year': False}
+MAE: 0.723614879348
+==========TESTING FM==========
+{'init_stdev': 0.29748028300067875, 'l2_reg_V': 18.356026719916485, 'l2_reg_w': 9.839012906409227, 'n_iter': 633, 'rank': 2, 'use_actors': False, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': True, 'use_popularity': False, 'use_scores': False, 'use_studios': True, 'use_type': True, 'use_year': True}
+MAE: 0.731792289482
+==========TESTING FM==========
+{'init_stdev': 0.10555056331332213, 'l2_reg_V': 16.396442263662912, 'l2_reg_w': 13.495542664736819, 'n_iter': 249, 'rank': 3, 'use_actors': True, 'use_country': True, 'use_directors': False, 'use_genres': False, 'use_language': True, 'use_model_results': False, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': False, 'use_type': False, 'use_year': False}
+MAE: 0.733763626873
+==========TESTING FM==========
+{'init_stdev': 0.5323652943871748, 'l2_reg_V': 15.2713321292203, 'l2_reg_w': 15.727970278015889, 'n_iter': 883, 'rank': 4, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': False, 'use_model_results': True, 'use_mpaa': True, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': True}
+MAE: 0.783815635828
+==========TESTING FM==========
+{'init_stdev': 0.16571238167701924, 'l2_reg_V': 12.786082321878046, 'l2_reg_w': 1.1159174812106176, 'n_iter': 810, 'rank': 4, 'use_actors': True, 'use_country': False, 'use_directors': True, 'use_genres': True, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': False, 'use_scores': False, 'use_studios': False, 'use_type': False, 'use_year': False}
+MAE: 0.732457690333
+==========TESTING FM==========
+{'init_stdev': 0.4475159011369367, 'l2_reg_V': 8.118309324056037, 'l2_reg_w': 17.49874744306815, 'n_iter': 675, 'rank': 2, 'use_actors': False, 'use_country': True, 'use_directors': False, 'use_genres': False, 'use_language': False, 'use_model_results': False, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.730916223921
+==========TESTING FM==========
+{'init_stdev': 0.3899678624463787, 'l2_reg_V': 0.2895799678958948, 'l2_reg_w': 19.217949054283963, 'n_iter': 953, 'rank': 4, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': True, 'use_language': True, 'use_model_results': True, 'use_mpaa': True, 'use_popularity': False, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': True}
+MAE: 0.803118842073
+==========TESTING FM==========
+{'init_stdev': 0.059918000976111385, 'l2_reg_V': 18.337262550355216, 'l2_reg_w': 9.775595741959023, 'n_iter': 769, 'rank': 3, 'use_actors': True, 'use_country': False, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': False, 'use_studios': False, 'use_type': False, 'use_year': False}
+MAE: 0.724251740669
+==========TESTING FM==========
+{'init_stdev': 0.30627116165604185, 'l2_reg_V': 6.444248227080358, 'l2_reg_w': 20.19197882186053, 'n_iter': 717, 'rank': 2, 'use_actors': False, 'use_country': True, 'use_directors': False, 'use_genres': True, 'use_language': False, 'use_model_results': False, 'use_mpaa': True, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': True}
+MAE: 0.742100256416
+==========TESTING FM==========
+{'init_stdev': 0.20049871174494718, 'l2_reg_V': 11.688140195105682, 'l2_reg_w': 5.88482501397324, 'n_iter': 842, 'rank': 3, 'use_actors': True, 'use_country': False, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': False, 'use_scores': False, 'use_studios': True, 'use_type': False, 'use_year': False}
+MAE: 0.728709345871
+==========TESTING FM==========
+{'init_stdev': 0.7127824881169599, 'l2_reg_V': 9.48966736049864, 'l2_reg_w': 16.183802390638824, 'n_iter': 999, 'rank': 4, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': False, 'use_type': True, 'use_year': False}
+MAE: 0.816614294341
+==========TESTING FM==========
+{'init_stdev': 0.13395487386231497, 'l2_reg_V': 2.269041244417288, 'l2_reg_w': 14.219951043308079, 'n_iter': 917, 'rank': 3, 'use_actors': False, 'use_country': True, 'use_directors': True, 'use_genres': True, 'use_language': False, 'use_model_results': False, 'use_mpaa': True, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': True}
+MAE: 0.749264667516
+==========TESTING FM==========
+{'init_stdev': 0.5984913428898501, 'l2_reg_V': 17.628536535782292, 'l2_reg_w': 12.645365366741627, 'n_iter': 514, 'rank': 2, 'use_actors': True, 'use_country': False, 'use_directors': False, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': False, 'use_scores': True, 'use_studios': True, 'use_type': False, 'use_year': False}
+MAE: 0.782910057952
+==========TESTING FM==========
+{'init_stdev': 0.5155680974950381, 'l2_reg_V': 13.457361541570917, 'l2_reg_w': 18.043205162304982, 'n_iter': 125, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': True, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': False, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.9348201915
+==========TESTING FM==========
+{'init_stdev': 0.3509422426021086, 'l2_reg_V': 19.04288429704843, 'l2_reg_w': 7.637053243562352, 'n_iter': 649, 'rank': 3, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': False, 'use_model_results': False, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': False, 'use_type': True, 'use_year': False}
+MAE: 0.729318433991
+==========TESTING FM==========
+{'init_stdev': 0.07463907309385764, 'l2_reg_V': 16.93182151109385, 'l2_reg_w': 18.67987114759069, 'n_iter': 362, 'rank': 2, 'use_actors': False, 'use_country': False, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': True, 'use_popularity': False, 'use_scores': True, 'use_studios': True, 'use_type': False, 'use_year': True}
+MAE: 0.72519018845
+==========TESTING FM==========
+{'init_stdev': 0.01641204958419562, 'l2_reg_V': 20.202155003032274, 'l2_reg_w': 11.558641769863002, 'n_iter': 780, 'rank': 3, 'use_actors': True, 'use_country': True, 'use_directors': False, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.725312431439
+==========TESTING FM==========
+{'init_stdev': 0.27225982450315867, 'l2_reg_V': 15.24333347262554, 'l2_reg_w': 15.082164260678393, 'n_iter': 601, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': True, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': False, 'use_studios': False, 'use_type': True, 'use_year': False}
+MAE: 0.727655689399
+==========TESTING FM==========
+{'init_stdev': 0.23689005101715388, 'l2_reg_V': 14.20453459800811, 'l2_reg_w': 20.951469826440135, 'n_iter': 868, 'rank': 4, 'use_actors': True, 'use_country': False, 'use_directors': True, 'use_genres': False, 'use_language': False, 'use_model_results': False, 'use_mpaa': True, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': True}
+MAE: 0.736865435427
+==========TESTING FM==========
+{'init_stdev': 0.4706015870863217, 'l2_reg_V': 20.993624947814347, 'l2_reg_w': 9.499662125495599, 'n_iter': 829, 'rank': 5, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': False, 'use_scores': True, 'use_studios': True, 'use_type': False, 'use_year': False}
+MAE: 0.763930224464
+==========TESTING FM==========
+{'init_stdev': 0.4011644630462155, 'l2_reg_V': 13.060661439316917, 'l2_reg_w': 12.737272193376855, 'n_iter': 970, 'rank': 4, 'use_actors': False, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.763401506833
+==========TESTING FM==========
+{'init_stdev': 0.840966897935062, 'l2_reg_V': 8.63106963188043, 'l2_reg_w': 18.990738789801267, 'n_iter': 156, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': False, 'use_genres': True, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': False, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 1.00496187693
+==========TESTING FM==========
+{'init_stdev': 0.1887711064466264, 'l2_reg_V': 10.743328782803921, 'l2_reg_w': 20.517798366934038, 'n_iter': 449, 'rank': 2, 'use_actors': True, 'use_country': False, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': False, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': False, 'use_type': True, 'use_year': False}
+MAE: 0.72674826882
+==========TESTING FM==========
+{'init_stdev': 0.13620869256528817, 'l2_reg_V': 19.69740147155252, 'l2_reg_w': 11.059922284154482, 'n_iter': 900, 'rank': 3, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': False, 'use_model_results': True, 'use_mpaa': True, 'use_popularity': False, 'use_scores': True, 'use_studios': True, 'use_type': False, 'use_year': True}
+MAE: 0.721792130939
+==========TESTING FM==========
+{'init_stdev': 0.2450236767938627, 'l2_reg_V': 15.5208642812423, 'l2_reg_w': 18.160029423073674, 'n_iter': 948, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.718594200133
+==========TESTING FM==========
+{'init_stdev': 0.3135813613725365, 'l2_reg_V': 17.660222862730432, 'l2_reg_w': 16.499615823201857, 'n_iter': 938, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.719600087828
+==========TESTING FM==========
+{'init_stdev': 0.5674717728083198, 'l2_reg_V': 18.602651078610037, 'l2_reg_w': 17.631398905990643, 'n_iter': 969, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.736470420691
+==========TESTING FM==========
+{'init_stdev': 0.03763308831629142, 'l2_reg_V': 15.374254199924925, 'l2_reg_w': 16.750715092852683, 'n_iter': 909, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.722120620037
+==========TESTING FM==========
+{'init_stdev': 0.3613052691204082, 'l2_reg_V': 16.550863056580894, 'l2_reg_w': 18.196466235361683, 'n_iter': 749, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.72235131918
+==========TESTING FM==========
+{'init_stdev': 0.2328260829696993, 'l2_reg_V': 12.030098043641098, 'l2_reg_w': 19.400055974333235, 'n_iter': 690, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.719553546096
+==========TESTING FM==========
+{'init_stdev': 0.002391142875358576, 'l2_reg_V': 14.297719663111735, 'l2_reg_w': 20.427259857258896, 'n_iter': 820, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.724876283489
+==========TESTING FM==========
+{'init_stdev': 0.26939188738941355, 'l2_reg_V': 15.771213476434593, 'l2_reg_w': 14.908098419775481, 'n_iter': 869, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.718969529218
+==========TESTING FM==========
+{'init_stdev': 0.09041039912255361, 'l2_reg_V': 12.812103539583628, 'l2_reg_w': 15.466865741246522, 'n_iter': 997, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.719477803775
+==========TESTING FM==========
+{'init_stdev': 0.1776936994222545, 'l2_reg_V': 10.151721097706673, 'l2_reg_w': 19.84074230458613, 'n_iter': 780, 'rank': 3, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.725904592929
+==========TESTING FM==========
+{'init_stdev': 0.33369153658804374, 'l2_reg_V': 17.244804537819704, 'l2_reg_w': 18.630896405386487, 'n_iter': 960, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.720312327407
+==========TESTING FM==========
+{'init_stdev': 0.11449876699138556, 'l2_reg_V': 11.551408398653798, 'l2_reg_w': 14.321968969053003, 'n_iter': 929, 'rank': 3, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.723940015255
+==========TESTING FM==========
+{'init_stdev': 0.41165507445272714, 'l2_reg_V': 18.962544213879173, 'l2_reg_w': 17.64620546608702, 'n_iter': 556, 'rank': 2, 'use_actors': False, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.752111876391
+==========TESTING FM==========
+{'init_stdev': 0.2187416682369158, 'l2_reg_V': 20.680831309197185, 'l2_reg_w': 20.081199630900386, 'n_iter': 836, 'rank': 3, 'use_actors': True, 'use_country': True, 'use_directors': False, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.72745095846
+==========TESTING FM==========
+{'init_stdev': 0.3775423540115349, 'l2_reg_V': 14.607898990831057, 'l2_reg_w': 16.028958037949437, 'n_iter': 725, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': True, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': False, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.743948859727
+==========TESTING FM==========
+{'init_stdev': 0.15353502311749473, 'l2_reg_V': 16.159242027169867, 'l2_reg_w': 16.82268914137846, 'n_iter': 886, 'rank': 2, 'use_actors': True, 'use_country': False, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': False, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': False, 'use_type': True, 'use_year': False}
+MAE: 0.730514593013
+==========TESTING FM==========
+{'init_stdev': 0.2553801078114663, 'l2_reg_V': 13.634311797274156, 'l2_reg_w': 19.39376799530575, 'n_iter': 983, 'rank': 5, 'use_actors': False, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': False, 'use_model_results': True, 'use_mpaa': True, 'use_popularity': False, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': True}
+MAE: 0.743341459967
+==========TESTING FM==========
+{'init_stdev': 0.6314190001460822, 'l2_reg_V': 15.170818303678681, 'l2_reg_w': 20.978705964391676, 'n_iter': 857, 'rank': 3, 'use_actors': True, 'use_country': True, 'use_directors': False, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': False, 'use_year': False}
+MAE: 0.897393793799
+==========TESTING FM==========
+{'init_stdev': 0.46099869594392257, 'l2_reg_V': 5.12925729521695, 'l2_reg_w': 5.92074670023994, 'n_iter': 946, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': True, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': False, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.76505711824
+==========TESTING FM==========
+{'init_stdev': 0.2810793138366331, 'l2_reg_V': 17.680919613957123, 'l2_reg_w': 13.948540647904455, 'n_iter': 799, 'rank': 3, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': False, 'use_type': True, 'use_year': False}
+MAE: 0.729552191577
+==========TESTING FM==========
+{'init_stdev': 0.2043856952724441, 'l2_reg_V': 13.219894271199133, 'l2_reg_w': 2.116424674489739, 'n_iter': 649, 'rank': 2, 'use_actors': False, 'use_country': False, 'use_directors': True, 'use_genres': False, 'use_language': False, 'use_model_results': False, 'use_mpaa': True, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': True}
+MAE: 0.724741579039
+==========TESTING FM==========
+{'init_stdev': 0.42815764206182827, 'l2_reg_V': 12.463674916880459, 'l2_reg_w': 17.205962934712144, 'n_iter': 253, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': False, 'use_scores': True, 'use_studios': True, 'use_type': False, 'use_year': False}
+MAE: 0.740255494803
+==========TESTING FM==========
+{'init_stdev': 0.1311719788681482, 'l2_reg_V': 13.930491164610501, 'l2_reg_w': 13.085440171331276, 'n_iter': 706, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': False, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.721225510093
+==========TESTING FM==========
+{'init_stdev': 0.3231011111020049, 'l2_reg_V': 15.83434884259849, 'l2_reg_w': 18.362765508837242, 'n_iter': 749, 'rank': 3, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': True, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': False, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.739152740825
+==========TESTING FM==========
+{'init_stdev': 0.49736745133661453, 'l2_reg_V': 20.396282378782146, 'l2_reg_w': 15.234046309049559, 'n_iter': 489, 'rank': 5, 'use_actors': True, 'use_country': False, 'use_directors': True, 'use_genres': False, 'use_language': False, 'use_model_results': False, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': False, 'use_type': True, 'use_year': False}
+MAE: 0.744818651027
+==========TESTING FM==========
+{'init_stdev': 0.07561573977045832, 'l2_reg_V': 17.020806189574323, 'l2_reg_w': 5.223033721499093, 'n_iter': 982, 'rank': 2, 'use_actors': False, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': True, 'use_popularity': False, 'use_scores': True, 'use_studios': True, 'use_type': False, 'use_year': True}
+MAE: 0.720137703239
+==========TESTING FM==========
+{'init_stdev': 0.7414016243077022, 'l2_reg_V': 19.609692656795996, 'l2_reg_w': 20.441954644753846, 'n_iter': 921, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': False, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.862963634838
+==========TESTING FM==========
+{'init_stdev': 0.932287607744758, 'l2_reg_V': 8.931824387842024, 'l2_reg_w': 19.148386683322496, 'n_iter': 599, 'rank': 3, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': True, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': False, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 1.33322387277
+==========TESTING FM==========
+{'init_stdev': 0.03335233014908437, 'l2_reg_V': 18.132182836421734, 'l2_reg_w': 17.74409286425479, 'n_iter': 336, 'rank': 3, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': False, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': False, 'use_type': True, 'use_year': False}
+MAE: 0.728666778275
+==========TESTING FM==========
+{'init_stdev': 0.5685377336835553, 'l2_reg_V': 2.5141450205740057, 'l2_reg_w': 14.706818461870249, 'n_iter': 417, 'rank': 4, 'use_actors': True, 'use_country': False, 'use_directors': True, 'use_genres': False, 'use_language': False, 'use_model_results': True, 'use_mpaa': True, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': True}
+MAE: 0.810101314452
+==========TESTING FM==========
+{'init_stdev': 0.2943022292803839, 'l2_reg_V': 9.75181696581387, 'l2_reg_w': 20.999044157358767, 'n_iter': 906, 'rank': 4, 'use_actors': False, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': False, 'use_scores': True, 'use_studios': True, 'use_type': False, 'use_year': False}
+MAE: 0.734926399444
+==========TESTING FM==========
+{'init_stdev': 0.24980228392586873, 'l2_reg_V': 6.485158623152758, 'l2_reg_w': 7.055875937669519, 'n_iter': 775, 'rank': 4, 'use_actors': True, 'use_country': True, 'use_directors': False, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.746821267366
+==========TESTING FM==========
+{'init_stdev': 0.5274248865805605, 'l2_reg_V': 7.8893099348841425, 'l2_reg_w': 19.75632264538732, 'n_iter': 890, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': True, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': False, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.77658480681
+==========TESTING FM==========
+{'init_stdev': 0.16686133971285305, 'l2_reg_V': 14.904845288473714, 'l2_reg_w': 13.75632458585088, 'n_iter': 821, 'rank': 2, 'use_actors': True, 'use_country': False, 'use_directors': True, 'use_genres': False, 'use_language': False, 'use_model_results': False, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': False, 'use_type': True, 'use_year': False}
+MAE: 0.728265335385
+==========TESTING FM==========
+{'init_stdev': 0.11530205689772124, 'l2_reg_V': 18.70138028226306, 'l2_reg_w': 18.86464321504709, 'n_iter': 853, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': True, 'use_popularity': False, 'use_scores': True, 'use_studios': True, 'use_type': False, 'use_year': True}
+MAE: 0.722623850452
+==========TESTING FM==========
+{'init_stdev': 0.3661623044245715, 'l2_reg_V': 4.428478737374711, 'l2_reg_w': 16.03967403744602, 'n_iter': 954, 'rank': 2, 'use_actors': False, 'use_country': True, 'use_directors': True, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.74752613539
+==========TESTING FM==========
+{'init_stdev': 0.4218326736254979, 'l2_reg_V': 10.640617850696135, 'l2_reg_w': 7.707530749364912, 'n_iter': 671, 'rank': 3, 'use_actors': True, 'use_country': True, 'use_directors': False, 'use_genres': False, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': True, 'use_studios': True, 'use_type': True, 'use_year': False}
+MAE: 0.752855310237
+==========TESTING FM==========
+{'init_stdev': 0.34486014824156863, 'l2_reg_V': 12.430194740675491, 'l2_reg_w': 11.450176901780303, 'n_iter': 390, 'rank': 2, 'use_actors': True, 'use_country': True, 'use_directors': True, 'use_genres': True, 'use_language': True, 'use_model_results': True, 'use_mpaa': False, 'use_popularity': True, 'use_scores': False, 'use_studios': True, 'use_type': True, 'use_year': False}
