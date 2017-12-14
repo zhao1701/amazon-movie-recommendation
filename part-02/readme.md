@@ -284,7 +284,7 @@ Below we compare the performance of each optimally tuned model along several met
 #### Mean Absolute Error
 Using the average training set rating as a prediction for all ratings results in a test MAE of 0.94, essentially 1 star. Against this baseline, collaborative filtering with LSH performs noticeably better, with a test MAE of 0.79, or 4/5ths of a star. While such an MAE is not close to that of the best models, it remains acceptable considering that the CF model uses an approximation algorithm for finding nearest neighbors, and so is not expected to be as accurate as a pure collaborative filtering with KNN model.
 
-||MeanBaseline|CF with LSH|BiasBaseline|FM with RatingsOnly|FM with LSH+Bias|FM with ExternalData|GBT Ensemble|
+||Mean Baseline|CF with LSH|Bias Baseline|FM with RatingsOnly|FM with LSH+Bias|FM with ExternalData|GBT Ensemble|
 |---|---|---|---|---|---|---|---|
 |Train|0.941307|0.776285|0.690115|0.642497|0.645602|0.650397|0.634640|
 |CV|0.938894|0.790865|0.725451|0.717786|0.719750|0.709635|0.717471|
@@ -299,7 +299,7 @@ Finally, it appears that incorporating external data into an FM does indeed lead
 #### Area Under Receiver Operating Characteristic Curve
 As stated previously, the AUC score provides a means of assessing the utility of the predicted ratings in discriminating between relevant (rated 4 stars or above) and not relevant items (rated below 4 stars). An AUC score of 0.5 suggests no discriminating power while an AUC score of 1 represents maximum discriminating power. We expect that models with lower test MAE's also have higher AUC scores, and this is largely the case, with the FM model using external data yielding the highest AUC score of 0.827.
 
-||MeanBaseline|CF with LSH|BiasBaseline|FM with RatingsOnly|FM with LSH+Bias|FM with ExternalData|GBT Ensemble|
+||Mean Baseline|CF with LSH|Bias Baseline|FM with RatingsOnly|FM with LSH+Bias|FM with ExternalData|GBT Ensemble|
 |---|---|---|---|---|---|---|---|
 |Train|0.5|0.771787|0.842967|0.871505|0.871109|0.861593|0.87213|
 |CV|0.5|0.762181|0.814528|0.816789|0.816938|0.823384|0.816143|
