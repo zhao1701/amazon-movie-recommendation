@@ -11,23 +11,37 @@ from scipy.sparse import csr_matrix, csc_matrix, hstack, vstack
 
 class CosineLSH():
     def __init__(self, p = 5, q = 4, user = 'user', item = 'item', rating = 'rating', seed = None):
+        
+        # store column names for user, item, and rating data
         self.user = user
         self.item = item
         self.rating = rating
+        
+        # p - hash signature length, q - number of signatures
         self.p = p
         self.q = q
         
+        # user-item ratings matrix
         self.data_matrix = None
+        
+        # list of unique items in the training set
         self.item_list = None
         self.hyperplanes = None
+        
+        # basic statistics
         self.n_users = None
         self.n_items = None
+        
+        # list of signature dictionaries, each dictionary storing all item names with the same signature
         self.dicts_list = list()
+        
+        # average rating of training data that is returned as prediction when CF prediction not possible
         self.avg_rating = None
         
         if isinstance(seed, int):
             np.random.seed(seed)
     
+    # convert a series of characters into a single string
     def char_series_to_string(self, series):
         string = ''
         for char in series:
@@ -86,6 +100,7 @@ class CosineLSH():
         neighbors = neighbors - set([item])     
         return neighbors
     
+    # given a user and item, return all item-neighbors that the user has rated
     def get_relevant_items(self, user, item):
         user_vector = self.data_matrix.loc[user, :]
         user_vector = user_vector[user_vector > 0]
@@ -93,11 +108,13 @@ class CosineLSH():
         item_neighbors = self.get_neighbors(item)
         relevant_items = user_items.intersection(item_neighbors)
         
+        # if 5 or fewer relevant items found, return all items user has rated
         if len(relevant_items) <= 5:
             relevant_items = user_items
         
         return relevant_items
     
+    # calculate all cosine similarities between a target item and its neighbors
     def cosine_similarities(self, target_item, relevant_items):
         target_item_vector = self.data_matrix.loc[:, target_item].values
         relevant_items_matrix = self.data_matrix.loc[:, relevant_items].values
@@ -106,17 +123,21 @@ class CosineLSH():
         similarities = dot_products / norm_products
         return similarities
     
+    # predict a rating for a user-item pair
     def predict_rating(self, user, item):
         relevant_items = list(self.get_relevant_items(user, item))
         user_ratings = self.data_matrix.loc[user,:][relevant_items]
         item_similarities = self.cosine_similarities(item, relevant_items)
+        
+        # if an item is new and prediction cannot be made, return average rating from training set
         if len(item_similarities) == 0 or item_similarities.sum() == 0:
             prediction = self.avg_rating
         else:
             prediction = np.dot(item_similarities, user_ratings) / item_similarities.sum()
 
         return prediction
-        
+       
+    # predict ratings for all input data
     def predict(self, data):
         df = data[[self.user, self.item]]
         

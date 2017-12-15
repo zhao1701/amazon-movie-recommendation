@@ -2,7 +2,7 @@
 
 **Note**: This project was conducted in Jupyter notebooks running Python 3.6 kernels. All python packages installed on the team's environment and their corresponding versions are listed in **requirements.txt**.
 
-For code and additional comments, please see the individual **.ipynb notebooks** and **lsh.py**.
+For code and additional comments, please see the individual **.ipynb notebooks** and **lsh.py** located in the **notebooks** folder.
 
 # A Comparison of Recommendation Models for Amazon's Movie and TV Catalog - Part II
 #### by Charissa Ding, Carrie Yang, and Derek Zhao
